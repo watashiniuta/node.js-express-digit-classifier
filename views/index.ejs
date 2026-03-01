@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MNIST Predictor</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>AI Digit Recognizer</h1>
+            <div id="result-display">predicted: ?</div>
+        </header>
+
+        <div class="canvas-card">
+            <canvas id="drawCanvas" width="28" height="28"></canvas>
+        </div>
+        
+        <div class="button-group">
+            <button id="clearBtn" class="secondary">Clear</button>
+            <button id="predictBtn" class="primary">Predict</button>
+        </div>
+    </div>
+
+    <script src="/js/sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    margin: 0; 
+    background: #121212; 
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.app-container { 
+    text-align: center; 
+}
+
+h1 { 
+    font-size: 1.5rem; 
+    color: #888; 
+}
+
+#result-display { 
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: #007AFF; 
+    margin: 10px 0; 
+}
+
+.canvas-card { 
+    background: #222; 
+    padding: 15px; 
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+}
+
+canvas { 
+    width: 280px; 
+    height: 280px; 
+    image-rendering: pixelated; 
+    border-radius: 10px; 
+    cursor: crosshair; 
+    display: block;
+}
+
+.button-group { 
+    margin-top: 20px; 
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+}
+
+button { 
+    padding: 12px 25px; 
+    border-radius: 10px; 
+    border: none; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: 0.2s;
+}
+
+.primary { 
+    background: #007AFF; 
+    color: white; 
+}
+
+.secondary { 
+    background: #333; 
+    color: white; 
+}
+
+button:hover { 
+    opacity: 0.8; 
+    transform: scale(1.05); 
+}
